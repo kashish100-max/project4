@@ -1,0 +1,227 @@
+#box1{
+    width: 100%;
+    height: 77px;
+    background-color: #970747;
+    
+    font-size: 40px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    
+}
+#box1 #text{
+    position: absolute;
+    top: 28px;
+    left: 30px;
+}
+#box2{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 550;
+    font-size: 35px;
+    color: #e93385;
+    /* text-shadow: 2px 2px 2px black; */
+
+}
+#box2 #sub{
+    position: relative;
+    top: 18px;
+    
+}
+img{
+    float: left;
+    
+}
+#box3 h1{
+    text-align: center;
+    font-size: 55px;
+    color: #970747;
+}
+h1~p{
+    line-height: 34px;
+    font-weight: 500;
+    font-family: "Libre Baskerville", serif;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+    
+}
+#box1 #one {
+    display: flex;
+    justify-content: flex-end;
+     /* flex-direction: row; */
+     align-items: flex-end;
+}
+#one{
+    width: 100%;
+    height: 77px;
+}
+/* #main{
+    height: 1000px;
+    width: 100%;
+} */
+#projects{
+    width: 100%;
+    height: 650px;
+    background-color: #36454F;
+    padding: 20px;
+}
+#projects span{
+    font-weight: 600;
+    font-size: 35px;
+    font-family: "Oswald", sans-serif;
+
+    color: #FFFDD0;
+}
+#projects h1{
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 2px 2px 2px  #87a2b4;
+    text-decoration: black underline;
+}
+#projects #mainlist li{
+    line-height: 45px;
+    font-size: 30px;
+    font-family: "Domine", serif;
+}
+#ments{
+    width: 100%;
+    background-color: black;
+    height: 700px;
+    padding: 20px;
+}
+#ments h1{
+    color: rgb(76, 175, 80);
+    text-align: center;
+    
+    font-size: 50px;
+}
+#ments ul li{
+    color: white;
+    line-height: 45px;
+    font-size: 30px;
+
+}
+#ments hr{
+    color: rgb(76, 175, 80);
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(76, 175, 80);
+    border-right-color: rgb(76, 175, 80);
+    border-bottom-color: rgb(76, 175, 80);
+    border-left-color: rgb(76, 175, 80);
+    background-color: rgb(76, 175, 80);
+    
+    
+}
+#ments span{
+    color: white;
+    font-size: 50px;
+    padding: 60px;
+    text-shadow: 2px 2px 2px white;
+    font-family: cursive;
+    text-transform: uppercase;
+
+}
+#contact{
+    background-color: #959D90;
+    width: 100%;
+    height: 750px;
+    padding: 10px;
+}
+#contact h1{
+    color: #1b3c4b;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #1b3c4b;
+}
+#contact hr{
+    color: #1b3c4b;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: #1b3c4b;
+    border-right-color: #1b3c4b;
+    border-bottom-color: #1b3c4b;
+    border-left-color: #1b3c4b;
+    background-color: #1b3c4b;
+    width: 100px;
+}
+#contact span{
+    padding: 60px;
+    font-size: 38px;
+}
+#contact #form{
+    margin: 10px auto;
+    background-color: black;
+    color: white;
+    height: 400px;
+    width: 500px;
+    padding: 15px;
+    font-size: 30px;
+}
+.mess{
+    position: relative;
+    bottom: 40px;
+}
+button{
+    margin: auto 110px;
+    
+}
+.sub{
+    font-weight: 600;
+}
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: #970747;
+    
+    font-size: 30px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+#footer i{
+    font-size: 30px;
+    opacity: o.3;
+}
+#footer i:hover{
+    font-size: 40px;
+    opacity: 1;
+}
+#footer h1{
+    line-height: 10px;
+}
+#end{
+    height: 85px;
+    width: 100%;
+    background-color: yellow;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 70px;
+    padding-left: 10px;
+    color: black;
+}
+.path{
+    color: black;
+}
+.path Span{
+    cursor:pointer;
+}
+#top{
+    color:black;
+    transform: scale(1.1);
+}
+
+
